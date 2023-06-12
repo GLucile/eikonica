@@ -1,0 +1,52 @@
+.b-banner {
+  margin: 0;
+  background: rgb(238, 204, 231);
+  background: linear-gradient(
+    160deg,
+    rgba(238, 204, 231, 1) 0%,
+    rgba(0, 40, 75, 1) 100%
+  );
+  font-family: Orbitron-Bold;
+  font-size: 65px;
+  color: #e6e6e6;
+  text-align: center;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  overflow: hidden;
+}
+
+.b-banner svg {
+  height: 70%;
+}
+
+.scroll {
+  white-space: nowrap;
+  margin: 0 2em;
+}
+
+.scroll div {
+  display: flex;
+  gap: 2em;
+}
+
+.b-theme {
+  font-size: 60px;
+  margin-bottom: 0;
+  margin-top: 18px;
+  line-height: 10px;
+}
+
+.b-rightToLeft {
+  animation: RightToLeft 10s infinite linear;
+}
+
+@keyframes RightToLeft {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
