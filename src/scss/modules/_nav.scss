@@ -2,16 +2,16 @@
   background-image: url(../img/22_nav-bgd.webp);
   background-repeat: no-repeat;
   background-size: 100%;
-}
-
-.n-nav-bar {
-  margin-left: 60px;
+  height: 80px;
+  padding: 25px 12px;
 }
 
 .n-chapter {
   text-align: center;
   font-family: Orbitron-SemiBold;
   font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .n-chapter a {
