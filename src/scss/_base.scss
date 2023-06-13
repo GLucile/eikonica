@@ -116,3 +116,10 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
+
+button:hover {
+  color: #ffffff;
+  background-color: #25404e;
+  border-color: #bbf5ff;
+  transition: 0.3s;
+}
