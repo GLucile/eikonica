@@ -18,4 +18,14 @@
   top: -423px;
   right: -215px;
   width: 50%;
+  animation: ringMove 50s infinite;
+}
+
+@keyframes ringMove {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
