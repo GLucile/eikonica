@@ -1,0 +1,51 @@
+.f-practical {
+  margin: 0 0 100px 0;
+  padding-top: 100px;
+}
+
+.f-practical h3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.f-clock-icon,
+.f-phone-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.f-practical p,
+.f-practical a {
+  font-family: Rajdhani-Regular;
+  font-size: 26px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.f-practical a {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.f-copyrights {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.f-social-media {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  padding-bottom: 10px;
+}
+
+.f-linkedin,
+.f-facebook,
+.f-instagram {
+  font-size: 30px;
+}
