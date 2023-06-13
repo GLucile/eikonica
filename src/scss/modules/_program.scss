@@ -17,8 +17,15 @@
 .p-hour {
   font-weight: 700;
   padding-right: 8px;
+  font-size: 21px;
 }
 
 .p-activity {
   font-weight: 500;
+  font-size: 21px;
+  line-height: 30px;
+}
+
+.p-activity p {
+  margin-right: 50px;
 }
