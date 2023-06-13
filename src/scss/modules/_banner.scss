@@ -23,12 +23,12 @@
 
 .scroll {
   white-space: nowrap;
-  margin: 0 2em;
+  margin: 0 32px;
 }
 
 .scroll div {
   display: flex;
-  gap: 2em;
+  gap: 32px;
 }
 
 .b-theme {
@@ -38,7 +38,7 @@
   line-height: 10px;
 }
 
-.b-rightToLeft {
+.b-righttoleft {
   animation: RightToLeft 10s infinite linear;
 }
 
@@ -48,5 +48,18 @@
   }
   to {
     transform: translateX(-50%);
+  }
+}
+
+.b-lefttoright {
+  animation: LeftToRight 10s infinite linear;
+}
+
+@keyframes LeftToRight {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%);
   }
 }
