@@ -59,18 +59,6 @@ body {
   font-family: "Rajdhani", sans-serif;
 }
 
-button {
-  background-color: #eecce7;
-  border: solid 1px #00284b;
-  font-family: Orbitron-SemiBold;
-  font-size: 20px;
-  color: #0d0d0d;
-  text-align: center;
-  padding: 22px 49px;
-  display: flex;
-  justify-content: center;
-}
-
 h1 {
   font-family: Orbitron-Bold;
   font-size: 110px;
@@ -104,4 +92,17 @@ h5 {
   color: #e6e6e6;
   line-height: 45px;
   text-transform: uppercase;
+}
+
+button {
+  background-color: #eecce7;
+  border: solid 1px #00284b;
+  font-family: Orbitron-SemiBold;
+  font-size: 20px;
+  color: #0d0d0d;
+  text-align: center;
+  padding: 22px 49px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
