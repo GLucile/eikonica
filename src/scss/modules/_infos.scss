@@ -71,3 +71,89 @@
   text-align: center;
   margin: 15px 80px 0;
 }
+
+/* Partie sur les infos des billets */
+
+.i-ticket-desk h2 {
+  margin-bottom: 60px;
+}
+
+.i-ticket-infos {
+  margin: 40px 0 65px;
+  font-family: Rajdhani-Regular;
+  font-size: 26px;
+  text-align: center;
+}
+
+.i-price {
+  margin-top: 40px;
+}
+
+/* Partie "inscriptions/enrolment" */
+.i-participation {
+  display: flex;
+  justify-content: center;
+}
+
+.i-ticket-title {
+  font-family: Rajdhani-SemiBold;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.i-activity {
+  background: #ffffff;
+  box-shadow: 0 0 17px -7px rgba(0, 0, 0, 0.5);
+  border-radius: 0 0 4px 4px;
+  padding-bottom: 22px;
+}
+
+.i-info-workshop {
+  font-family: Rajdhani-Regular;
+  font-size: 21px;
+  color: #000000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.i-info-workshop p {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.i-info-workshop svg {
+  padding-right: 9px;
+  fill: #000000;
+}
+
+.i-vr,
+.i-gif,
+.i-circut {
+  margin-bottom: 15px;
+}
+
+.i-gif,
+.i-interart {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.i-activity img {
+  display: block;
+  width: 100%;
+  padding: 0;
+}
+
+.i-activity p {
+  color: black;
+}
+
+.ei-eikonica {
+  margin-top: 95px;
+}
