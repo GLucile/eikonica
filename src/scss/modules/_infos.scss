@@ -98,6 +98,7 @@
 .i-participation {
   display: flex;
   justify-content: center;
+  margin-left: 60px;
 }
 
 .i-ticket-title {
@@ -108,10 +109,13 @@
 }
 
 .i-activity {
-  background: #ffffff;
+  background: #00000000;
   box-shadow: 0 0 17px -7px rgba(0, 0, 0, 0.5);
   border-radius: 0 0 4px 4px;
-  padding-bottom: 22px;
+}
+
+.i-activity figure {
+  background-color: #ffffff;
 }
 
 .i-info-workshop {
@@ -124,6 +128,7 @@
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  padding-bottom: 22px;
 }
 
 .i-info-workshop p {
@@ -145,8 +150,8 @@
 
 .i-gif,
 .i-interart {
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .i-activity img {
