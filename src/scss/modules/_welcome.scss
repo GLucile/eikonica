@@ -1,31 +1,41 @@
 .w-welcome {
   position: relative;
-  margin-top: 344px;
 }
 
-.w-weekend {
-  font-family: Orbitron-SemiBold;
+.w-data {
+  font-family: Orbitron-Bold;
   font-size: 45px;
+  color: #f0f0f0;
+  text-align: center;
   line-height: 129px;
-  margin-top: -25px;
-  margin-bottom: 106px;
 }
 
-.w-ring {
+.w-cloud {
   position: absolute;
-  z-index: -2;
-  opacity: 50%;
-  top: -423px;
-  right: -215px;
-  width: 50%;
-  animation: ringMove 50s infinite;
+  z-index: -1;
+  top: -100;
+  opacity: 60%;
 }
 
-@keyframes ringMove {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+.w-break-bar {
+  border-top: solid #fff 1px;
+  margin: 90px 0 110px 0;
+}
+
+.w-intro {
+  font-family: Rajdhani-Medium;
+  font-size: 24px;
+  color: #f2f2f2;
+  text-align: center;
+  line-height: 34px;
+  margin-bottom: 137px;
+}
+
+.w-intro-one p,
+.w-intro-two p {
+  padding: 0 60px;
+}
+
+.w-intro-one {
+  margin-bottom: 40px;
 }
