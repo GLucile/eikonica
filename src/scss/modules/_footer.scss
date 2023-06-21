@@ -36,6 +36,28 @@
   justify-content: center;
 }
 
+.f-sticky {
+  position: relative;
+}
+
+.f-arrow-up {
+  height: 95px;
+  position: absolute;
+  right: -50px;
+  top: 200px;
+  border: solid 1px #fff;
+  padding: 20px 30px;
+  border-radius: 50px;
+}
+
+.f-arrow-up:hover {
+  text-shadow: 0 0 6px #4b829f;
+  border: 1px solid #d9f2ff;
+  box-shadow: 0 0 3px 2px #4b829f;
+  top: 190px;
+  transition: 0.5s;
+}
+
 .f-copyrights {
   display: flex;
   justify-content: center;
